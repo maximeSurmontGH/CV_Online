@@ -3,8 +3,8 @@
                     "firstname"     : "Maxime",
                     "lastname"      : "SURMONT",
                     "dateOfBirth"   : "18/06/1994",
-                    "job"           : "ingénieur",
-                    "address"       : 
+                    "job"           : "ingénieur - dev",
+                    "address"       :
                                         {
                                             "num"       : "105",
                                             "street"    : "Avenue robert descamps",
@@ -42,7 +42,7 @@
                                             "localisation"  : "LILLE",
                                             "dateStart"     : "2013",
                                             "dateEnd"       : "none",
-                                            "content"       : "grezzzzzzzzzzzzzzgggggggggggggfdzzzzzzzzzzzzzzzzzzbbbbbbbbbbbbbb\nfreaaaaaaaaaaaa\nvreaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" 
+                                            "content"       : "grezzzzzzzzzzzzzzgggggggggggggfdzzzzzzzzzzzzzzzzzzbbbbbbbbbbbbbb\nfreaaaaaaaaaaaa\nvreaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
                                         },
                                         {
                                             "titre"         : "Ecole",
@@ -98,4 +98,3 @@
                                     ]
                 }
 }
-
