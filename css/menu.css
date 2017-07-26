@@ -1,0 +1,126 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    border: 0;
+    font-size:100%;
+    font:inherit;
+    vertical-align:baseline;
+    background: #fff;
+    background: -moz-radial-gradient(center, circle cover, #fff 0%, #EFF2FB  100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #fff), color-stop(100%, #EFF2FB ));
+    background: -webkit-radial-gradient(center, circle cover,  #fff  0%, #EFF2FB 100%);
+    background: -o-radial-gradient(center, circle cover, #fff 0%, #EFF2FB  100%);
+    background: -ms-radial-gradient(center, circle cover, #fff 0%, #EFF2FB  100%);
+    background: radial-gradient(center, circle cover, #fff 0%, #EFF2FB  100%);
+}
+
+header{
+    background:  #1c3554;
+    background: -webkit-radial-gradient(center, circle cover, #3f5c80 0%, #1c3554 100%);
+    height: 180px;
+    box-shadow: 1px 1px 12px #555;
+}
+
+header #divIcons{
+    position: absolute;
+    margin-top: 0;
+    margin-left: 5px;
+    font-size: 26px;
+}
+
+header #divIcons span{
+    color: #f2f2f2 !important;
+}
+
+header #divIcons span:hover{
+    color: #fff !important;
+}
+
+header #divImg{
+    position: absolute;
+    width: 100%;
+    margin-top: 105px;
+}
+
+header div figure img{
+    width: 150px;
+    border: solid 3px #f2f2f2;
+    border-radius: 50%;
+    box-shadow: 0px 3px 18px #000;
+}
+
+header div figure figcaption{
+    margin-top: 8px;
+    font-size: 18px;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    /*max-width: 900px;*/
+    margin: auto;
+}
+
+nav h1{
+    text-align: center;
+    margin-top: 175px;
+    margin-bottom: 30px;
+    width: 100%;
+    font-color: #888888;
+}
+
+
+nav div{
+    margin-top: 20px;
+    height: 330px;
+}
+
+nav #navLeft{
+    border-right: 3px solid transparent;
+    border-image: linear-gradient(to top, #3f5c80 0%, #fff 100%);
+    border-image-slice: 1;
+}
+
+nav #navLeft:hover{
+    background: #fff;
+}
+
+nav #navRight{
+    border-left: 3px solid transparent;
+    border-image: linear-gradient(to top, #3f5c80 0%, #f3f3f3 100%);
+    border-image-slice: 1;
+}
+
+/*nav div{
+    margin: 10px;
+    width: 250px;
+    background:  #3f5c80 !important;
+    background: -webkit-radial-gradient(center, circle cover, #3f5c80 0%, #304E72 100%) !important;
+    color: #fff !important;
+    border: 3px solid #f2f2f2 !important;
+    border-radius: 0px !important;
+    box-shadow: 0px 2px 10px #adadad;
+}
+
+nav div:hover{
+    background:  #3f5c80 !important;
+}
+
+nav div span:first-child{
+    font-size: 90px;
+    padding: 10px;
+}
+
+nav div span:first-child:hover{
+    font-size: 96px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}*/
