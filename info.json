@@ -1,0 +1,101 @@
+{
+    "contact"   :{
+                    "firstname"     : "Maxime",
+                    "lastname"      : "SURMONT",
+                    "dateOfBirth"   : "18/06/1994",
+                    "job"           : "ingénieur",
+                    "address"       : 
+                                        {
+                                            "num"       : "105",
+                                            "street"    : "Avenue robert descamps",
+                                            "cityNum"   : "59126",
+                                            "city"      : "Linselles"
+                                        },
+                    "mail"          : "maxime.surmont@hei.fr"
+                },
+    "skills"    :[
+                    {
+                        "name"      : "anglais",
+                        "value"     : 5
+                    },
+                    {
+                        "name"      : "anglais",
+                        "value"     : 5
+                    },
+                    {
+                        "name"      : "anglais",
+                        "value"     : 5
+                    },
+                    {
+                        "name"      : "anglais",
+                        "value"     : 5
+                    },
+                    {
+                        "name"      : "anglais",
+                        "value"     : 5
+                    }
+                ],
+    "content"   :{
+                    "proExp"        :[
+                                        {
+                                            "titre"         : "Ecole",
+                                            "localisation"  : "LILLE",
+                                            "dateStart"     : "2013",
+                                            "dateEnd"       : "none",
+                                            "content"       : "grezzzzzzzzzzzzzzgggggggggggggfdzzzzzzzzzzzzzzzzzzbbbbbbbbbbbbbb\nfreaaaaaaaaaaaa\nvreaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" 
+                                        },
+                                        {
+                                            "titre"         : "Ecole",
+                                            "localisation"  : "LILLE",
+                                            "dateStart"     : "2013",
+                                            "dateEnd"       : "none",
+                                            "content"       : "grezzzzzzzzzzzzzzgggggggggggggfdzzzzzzzzzzzzzzzzzzbbbbbbbbbbbbbb\nfreaaaaaaaaaaaa\nvreaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                                        },
+                                        {
+                                            "titre"         : "Ecole",
+                                            "localisation"  : "LILLE",
+                                            "dateStart"     : "2013",
+                                            "dateEnd"       : "none",
+                                            "content"       : "grezzzzzzzzzzzzzzgggggggggggggfdzzzzzzzzzzzzzzzzzzbbbbbbbbbbbbbb\nfreaaaaaaaaaaaa\nvreaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                                        }
+                                    ],
+                    "training"      :[
+                                        {
+                                            "titre"         : "Ecole",
+                                            "localisation"  : "LILLE",
+                                            "dateStart"     : "2013",
+                                            "dateEnd"       : "none",
+                                            "content"       : "grezzzzzzzzzzzzzzgggggggggggggfdzzzzzzzzzzzzzzzzzzbbbbbbbbbbbbbb\nfreaaaaaaaaaaaa\nvreaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                                        },
+                                        {
+                                            "titre"         : "Ecole",
+                                            "localisation"  : "LILLE",
+                                            "dateStart"     : "2013",
+                                            "dateEnd"       : "none",
+                                            "content"       : "grezzzzzzzzzzzzzzgggggggggggggfdzzzzzzzzzzzzzzzzzzbbbbbbbbbbbbbb\nfreaaaaaaaaaaaa\nvreaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                                        },
+                                        {
+                                            "titre"         : "Ecole",
+                                            "localisation"  : "LILLE",
+                                            "dateStart"     : "2013",
+                                            "dateEnd"       : "none",
+                                            "content"       : "grezzzzzzzzzzzzzzgggggggggggggfdzzzzzzzzzzzzzzzzzzbbbbbbbbbbbbbb\nfreaaaaaaaaaaaa\nvreaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                                        }
+                                    ],
+                    "hobbies"       :[
+                                        {
+                                            "name"  : "foot",
+                                            "url"   : "/img"
+                                        },
+                                        {
+                                            "name"  : "foot",
+                                            "url"   : "/img"
+                                        },
+                                        {
+                                            "name"  : "foot",
+                                            "url"   : "/img"
+                                        }
+                                    ]
+                }
+}
+

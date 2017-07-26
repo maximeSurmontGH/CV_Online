@@ -1,0 +1,44 @@
+<div ng-if="$ctrl.sectionDisplayed == undefined">
+    <header>
+        <div id="divIcons">
+            <a href=""><span class="fa fa-github-square"></span></a>
+            <a href=""><span class="fa fa-bitbucket-square"></span></a>
+            <a href=""><span class="fa fa fa-linkedin-square"></span></a>
+            <a href=""><span class="fa fa-print"></span></a>
+        </div>
+        <div id="divImg">
+            <figure class="text-center">
+                <img src="img/me.png"/>
+                <figcaption><strong>{{$ctrl.info.contact.firstname}} {{$ctrl.info.contact.lastname | uppercase}}</strong></br><i>{{$ctrl.info.contact.job}}</i></figcaption>
+            </figure>
+        </div>
+    </header>
+    <nav>
+        <h1><strong>Bienvenue sur mon CV en ligne.</strong></h1>
+<!--
+        <div class="btn btn-default" ng-click="">
+            <span class="fa fa-suitcase"></span><br/>
+            <span><strong>EXP. PRO</strong></span>
+        </div>
+        <div class="btn btn-default" ng-click="">
+            <span class="fa fa-graduation-cap"></span><br/>
+            <span><strong>FORMATION</strong></span>
+        </div>
+        <div class="btn btn-default" ng-click="">
+            <span class="fa fa-plane"></span><br/>
+            <span><strong>LOISIRS</strong></span>
+        </div>
+-->
+        <div class="col-xs-4" id="navLeft">
+        </div>
+        <div class="col-xs-4" id="navCenter">
+        </div>
+        <div class="col-xs-4" id="navRight">
+        </div>
+
+        
+    </nav>
+</div>
+<div ng-if="$ctrl.sectionDisplayed != undefined">
+
+</div>
