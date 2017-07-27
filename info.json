@@ -3,37 +3,42 @@
                     "firstname"     : "Maxime",
                     "lastname"      : "SURMONT",
                     "dateOfBirth"   : "18/06/1994",
-                    "job"           : "ingénieur - dev",
+                    "job"           : "élève ingénieur IT",
+                    "jobSearched"   : "Stage Ingénieur",
+                    "date"          : "juin - août 2017",
                     "address"       :
                                         {
                                             "num"       : "105",
-                                            "street"    : "Avenue robert descamps",
+                                            "street"    : "Avenue Robert Descamps",
                                             "cityNum"   : "59126",
                                             "city"      : "Linselles"
                                         },
-                    "mail"          : "maxime.surmont@hei.fr"
+                    "mail"          : "maxime.surmont@hei.fr",
+                    "number"        : "06 40 40 04 78"
                 },
     "skills"    :[
                     {
-                        "name"      : "anglais",
-                        "value"     : 5
+                        "name"      : "Anglais - FIRST",
+                        "value"     : "80"
                     },
                     {
                         "name"      : "anglais",
-                        "value"     : 5
+                        "value"     : "30"
                     },
                     {
                         "name"      : "anglais",
-                        "value"     : 5
+                        "value"     : "50"
                     },
                     {
                         "name"      : "anglais",
-                        "value"     : 5
+                        "value"     : "60"
                     },
                     {
                         "name"      : "anglais",
-                        "value"     : 5
+                        "value"     : "50"
                     }
+                ],
+    "persFact"  :["Je ne fume pas", "J'aime organiser mon temps même si travailler sous stress ne me dérange pas", "Je m'adapte facilement aux heures de travail. Je suis flexible."
                 ],
     "content"   :{
                     "proExp"        :[

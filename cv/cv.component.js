@@ -8,9 +8,8 @@ angular.
       function cvController($routeParams, Informations) {
         var self = this;
         Informations.getInfo().$promise.then(function(res) {
-            self.info = res; 
+            self.info = res;
         });
       }
     ]
   });
-

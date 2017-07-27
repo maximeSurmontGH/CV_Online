@@ -1,1 +1,121 @@
+/* ===== LEFT SIDE ===== */
 
+#sectionInfo{
+  display: inline-block;
+}
+
+#sectionInfo #divHeader{
+  height: 250px;
+  max-width: 270px;
+  background: #303b47;
+  z-index: 2;
+  color: #fff;
+}
+
+#sectionInfo #divHeader h3, h4{
+  margin: 0;
+  text-shadow: 0px 1px 4px #000;
+}
+
+#sectionInfo #divHeader h3{
+  padding-top: 25px;
+  text-shadow: 0px 1px 6px #000;
+}
+
+#sectionInfo #divImg img{
+  width: 160px;
+  border: solid 3px #f2f2f2;
+  border-radius: 50%;
+  box-shadow: 0px 3px 13px #111;
+  position: absolute;
+  top: 170px;
+  left: 55px;
+}
+
+#sectionInfo #divInfo{
+  max-width: 270px;
+  background:  #3c4a59;
+  color: #fff;
+  padding: 85px 15px 50px 15px;
+}
+
+#sectionInfo #divInfo h4{
+  margin: 0;
+  padding-top: 40px;
+  font-size: 20px;
+}
+
+#sectionInfo #divInfo #divContact div{
+  font-size: 15px;
+  margin-top: 10px;
+}
+#sectionInfo #divInfo #divContact div span{
+  width: 18px;
+  text-align: center;
+  margin-right: 2px;
+}
+
+#sectionInfo #divInfo #divSkills>div{
+  font-size: 15px;
+  margin-top: 10px;
+}
+#sectionInfo #divInfo #divSkills div{
+  margin-bottom: 0 !important;
+}
+.progress-bar-success{
+  background-color: #5b677a !important;
+}
+
+#sectionInfo #divInfo #divFacts div{
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+/* ===== RIGHT SIDE ===== */
+
+#sectionContent{
+  background: -webkit-radial-gradient(center, circle cover,  #fff  0%, #EFF2FB 100%);
+  height: 1000px;
+  display: inline-block;
+  position: absolute;
+  float: right;
+}
+
+#divSelectionPersExp, #divSelectionFormation, #divSelectionHobbies{
+  background: #3c4a59;
+  width: 50px;
+  border-radius: 0px 5px 5px 0px;
+  position: absolute;
+  left: 0px;
+}
+
+#divSelectionPersExp{
+  top: 20px;
+}
+#divSelectionPersExp span:hover{
+  text-shadow: 0px 1px 10px #abd;
+}
+
+#divSelectionFormation{
+  top: 70px;
+}
+#divSelectionFormation span:hover{
+  text-shadow: 0px 1px 10px #abd;
+}
+
+#divSelectionHobbies{
+  top: 120px;
+}
+#divSelectionHobbies span:hover{
+  text-shadow: 0px 1px 10px #abd;
+}
+
+#divSelectionPersExp span, #divSelectionFormation span, #divSelectionHobbies span{
+  color: #fff;
+  font-size: 22px;
+  margin: 10px 0px 10px 15px;
+}
+
+#divContent{
+  margin: 20px 40px 70px 70px;
+}

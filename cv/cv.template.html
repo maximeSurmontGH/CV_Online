@@ -14,20 +14,75 @@
         </div>
     </header>
     <nav>
-        <div class="btn btn-default" ng-click="">
+        <div class="btn btn-default" ng-click="$ctrl.sectionDisplayed = 'proExp'">
             <span class="fa fa-suitcase"></span><br/>
             <span><strong>EXP. PRO</strong></span>
         </div>
-        <div class="btn btn-default" ng-click="">
+        <div class="btn btn-default" ng-click="$ctrl.sectionDisplayed = 'formation'">
             <span class="fa fa-graduation-cap"></span><br/>
             <span><strong>FORMATION</strong></span>
         </div>
-        <div class="btn btn-default" ng-click="">
+        <div class="btn btn-default" ng-click="$ctrl.sectionDisplayed = 'hobbies'">
             <span class="fa fa-plane"></span><br/>
             <span><strong>LOISIRS</strong></span>
         </div>
     </nav>
 </div>
-<div ng-if="$ctrl.sectionDisplayed != undefined">
 
+<div ng-if="$ctrl.sectionDisplayed != undefined">
+  <section id="sectionInfo">
+      <div id="divHeader" class="text-center">
+        <h3><strong>{{$ctrl.info.contact.firstname | uppercase}} {{$ctrl.info.contact.lastname | uppercase}}</strong></h3>
+        <h4>{{$ctrl.info.contact.job}}</h4>
+        <h3>{{$ctrl.info.contact.jobSearched}}</h3>
+        <h4>{{$ctrl.info.contact.date}}</h4>
+      </div>
+
+      <div id="divImg">
+          <div class="text-center">
+              <img src="img/me.png"/>
+          </div>
+      </div>
+
+      <div id="divInfo">
+        <div id="divContact">
+          <h4><span class="fa fa-address-book-o"></span> CONTACT</h4>
+          <div><span><span class="fa fa-map-marker"></span></span>{{$ctrl.info.contact.address.num}} {{$ctrl.info.contact.address.street}}</div>
+          <div><span><span class="fa"> </span></span>{{$ctrl.info.contact.address.cityNum}} {{$ctrl.info.contact.address.city | uppercase}}</div>
+          <div><span><span class="fa fa-envelope"></span></span>{{$ctrl.info.contact.mail}}</div>
+          <div><span><span class="fa fa-mobile"></span></span>{{$ctrl.info.contact.number}}</div>
+        </div>
+        <div id="divSkills">
+          <h4><span class="fa fa-university"></span> MES COMPETENCES</h4>
+          <div ng-repeat="skill in $ctrl.info.skills">
+            {{skill.name}}
+            <div class="progress">
+              <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: {{skill.value}}%">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="divFacts">
+          <h4><span class="fa fa-trophy"></span> FAITS PERSONNELS</h4>
+          <div ng-repeat="fact in $ctrl.info.persFact" class="text-justify">
+            {{fact}}
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section id="sectionContent">
+    <div id="divSelectionPersExp">
+      <span class="fa fa-suitcase" ng-click="$ctrl.sectionDisplayed = 'proExp'"></span>
+    </div>
+    <div id="divSelectionFormation">
+      <span class="fa fa-graduation-cap" ng-click="$ctrl.sectionDisplayed = 'formation'"></span>
+    </div>
+    <div id="divSelectionHobbies" ng-click="$ctrl.sectionDisplayed = 'hobbies'">
+      <span class="fa fa-plane"></span>
+    </div>
+    <div class="text-justify" id="divContent">
+      {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}}
+    </div>
+  </section>
 </div>

@@ -1,26 +1,3 @@
-html, body{
-    margin: 0px;
-    padding: 0px;
-    outline: 0px;
-    height: 100%;
-}
-
-body{
-    width: 100%;
-    border: 0;
-    font-size:100%;
-    font:inherit;
-    vertical-align:baseline;
-    background: #fff;
-    background: -moz-radial-gradient(center, circle cover, #fff 0%, #EFF2FB  100%);
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #fff), color-stop(100%, #EFF2FB ));
-    background: -webkit-radial-gradient(center, circle cover,  #fff  0%, #EFF2FB 100%);
-    background: -o-radial-gradient(center, circle cover, #fff 0%, #EFF2FB  100%);
-    background: -ms-radial-gradient(center, circle cover, #fff 0%, #EFF2FB  100%);
-    background: radial-gradient(center, circle cover, #fff 0%, #EFF2FB  100%);
-    color: #3c4a59;
-}
-
 header{
     background:  #1c3554;
     background: -webkit-radial-gradient(center, circle cover, #3f5c80 0%, #1c3554 100%);
@@ -68,6 +45,7 @@ nav{
     align-items: center;
     max-width: 900px;
     margin: auto;
+    margin-top: 225px;
 }
 
 nav div{
@@ -78,7 +56,6 @@ nav div{
     border: 3px solid #3c4a59 !important;
     border-radius: 50% !important;
     box-shadow: 0px 2px 10px #afafaf;
-    margin-top: 225px;
 }
 
 nav div:hover{
