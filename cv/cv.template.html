@@ -82,7 +82,21 @@
       <span class="fa fa-plane"></span>
     </div>
     <div class="text-justify" id="divContent">
-      {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}}
+      <div id="divIcons">
+          <a href=""><span class="fa fa-github-square"></span></a>
+          <a href=""><span class="fa fa-bitbucket-square"></span></a>
+          <a href=""><span class="fa fa fa-linkedin-square"></span></a>
+          <a href=""><span class="fa fa-print"></span></a>
+      </div>
+      <div id="divPersExp" ng-if="$ctrl.sectionDisplayed = 'proExp'">
+        <h1>Experience Professionnelle</h1>
+        <div ng-repeat="exp in $ctrl.info.content.proExp">
+            {{exp.titre}}
+            {{exp.}}
+        </div>
+        {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}}
+
+      </div>
     </div>
   </section>
 </div>

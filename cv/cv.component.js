@@ -9,6 +9,7 @@ angular.
         var self = this;
         Informations.getInfo().$promise.then(function(res) {
             self.info = res;
+            self.sectionDisplayed = 'proExp';
         });
       }
     ]

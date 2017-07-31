@@ -117,5 +117,19 @@
 }
 
 #divContent{
-  margin: 20px 40px 70px 70px;
+  margin: 10px 40px 70px 70px;
+}
+
+#divContent #divIcons{
+    margin-top: -40px;
+    font-size: 26px;
+    float: right;
+}
+
+#divContent #divIcons span{
+  color: #3c4a59 !important;
+}
+
+#divHobbies, #divPersExp{
+  margin-top: 50px;
 }

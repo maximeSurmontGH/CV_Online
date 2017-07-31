@@ -14,28 +14,44 @@
                                             "city"      : "Linselles"
                                         },
                     "mail"          : "maxime.surmont@hei.fr",
-                    "number"        : "06 40 40 04 78"
+                    "number"        : "06 40 40 04 78",
+                    "photo"         : "/img"
                 },
     "skills"    :[
                     {
                         "name"      : "Anglais - FIRST",
-                        "value"     : "80"
+                        "value"     : "70"
                     },
                     {
-                        "name"      : "anglais",
-                        "value"     : "30"
+                        "name"      : "Gestion de peojet: GIT - SCRUM",
+                        "value"     : "70"
                     },
                     {
-                        "name"      : "anglais",
-                        "value"     : "50"
-                    },
-                    {
-                        "name"      : "anglais",
+                        "name"      : "Java - JEE",
                         "value"     : "60"
                     },
                     {
-                        "name"      : "anglais",
-                        "value"     : "50"
+                        "name"      : "Commandes Unix et scripts SHELL",
+                        "value"     : "55"
+                    },
+                    {
+                        "name"      : "Dev WEB: HTML5, CSS3, JS",
+                        "value"     : "80"
+                    },
+                    {
+                        "name"      : "Angular JS - Angular",
+                        "value"     : "65"
+                    },
+                    {
+                        "name"      : "PERL (Mojolicious)",
+                        "value"     : "60"
+                    },
+                    {
+                        "name"      : "Réseaux",
+                        "value"     : "30"
+                    },{
+                        "name"      : "Graphisme: Photoshop, Illustrator",
+                        "value"     : "60"
                     }
                 ],
     "persFact"  :["Je ne fume pas", "J'aime organiser mon temps même si travailler sous stress ne me dérange pas", "Je m'adapte facilement aux heures de travail. Je suis flexible."
@@ -89,15 +105,15 @@
                                     ],
                     "hobbies"       :[
                                         {
-                                            "name"  : "foot",
+                                            "name"  : "bénévole",
                                             "url"   : "/img"
                                         },
                                         {
-                                            "name"  : "foot",
+                                            "name"  : "sport",
                                             "url"   : "/img"
                                         },
                                         {
-                                            "name"  : "foot",
+                                            "name"  : "séries",
                                             "url"   : "/img"
                                         }
                                     ]
