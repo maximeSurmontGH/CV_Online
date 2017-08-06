@@ -1,35 +1,3 @@
-<div ng-if="$ctrl.sectionDisplayed == undefined">
-    <header>
-        <div id="divIcons">
-            <a href=""><span class="fa fa-github-square"></span></a>
-            <a href=""><span class="fa fa-bitbucket-square"></span></a>
-            <a href=""><span class="fa fa fa-linkedin-square"></span></a>
-            <a href=""><span class="fa fa-print"></span></a>
-        </div>
-        <div id="divImg">
-            <figure class="text-center">
-                <img src="img/me.png"/>
-                <figcaption><strong>{{$ctrl.info.contact.firstname}} {{$ctrl.info.contact.lastname | uppercase}}</strong></br><i>{{$ctrl.info.contact.job}}</i></figcaption>
-            </figure>
-        </div>
-    </header>
-    <nav>
-        <div class="btn btn-default" ng-click="$ctrl.sectionDisplayed = 'proExp'">
-            <span class="fa fa-suitcase"></span><br/>
-            <span><strong>EXP. PRO</strong></span>
-        </div>
-        <div class="btn btn-default" ng-click="$ctrl.sectionDisplayed = 'formation'">
-            <span class="fa fa-graduation-cap"></span><br/>
-            <span><strong>FORMATION</strong></span>
-        </div>
-        <div class="btn btn-default" ng-click="$ctrl.sectionDisplayed = 'hobbies'">
-            <span class="fa fa-plane"></span><br/>
-            <span><strong>LOISIRS</strong></span>
-        </div>
-    </nav>
-</div>
-
-<div ng-if="$ctrl.sectionDisplayed != undefined">
   <section id="sectionInfo">
       <div id="divHeader" class="text-center">
         <h3><strong>{{$ctrl.info.contact.firstname | uppercase}} {{$ctrl.info.contact.lastname | uppercase}}</strong></h3>
@@ -40,7 +8,7 @@
 
       <div id="divImg">
           <div class="text-center">
-              <img src="img/me.png"/>
+              <img ng-src="{{$ctrl.info.contact.photo}}"/>
           </div>
       </div>
 
@@ -53,7 +21,7 @@
           <div><span><span class="fa fa-mobile"></span></span>{{$ctrl.info.contact.number}}</div>
         </div>
         <div id="divSkills">
-          <h4><span class="fa fa-university"></span> MES COMPETENCES</h4>
+          <h4><span class="fa fa-university"></span> MES COMP&Eacute;TENCES</h4>
           <div ng-repeat="skill in $ctrl.info.skills">
             {{skill.name}}
             <div class="progress">
@@ -72,31 +40,70 @@
   </section>
 
   <section id="sectionContent">
-    <div id="divSelectionPersExp">
-      <span class="fa fa-suitcase" ng-click="$ctrl.sectionDisplayed = 'proExp'"></span>
+    <div id="divSelectionPersExp" ng-if="$ctrl.sectionDisplayed != 'print'">
+      <span class="fa fa-suitcase" ng-click="$ctrl.sectionDisplay('proExp')"></span>
     </div>
-    <div id="divSelectionFormation">
-      <span class="fa fa-graduation-cap" ng-click="$ctrl.sectionDisplayed = 'formation'"></span>
+    <div id="divSelectionFormation" ng-if="$ctrl.sectionDisplayed != 'print'">
+      <span class="fa fa-graduation-cap" ng-click="$ctrl.sectionDisplay('formation')"></span>
     </div>
-    <div id="divSelectionHobbies" ng-click="$ctrl.sectionDisplayed = 'hobbies'">
-      <span class="fa fa-plane"></span>
+    <div id="divSelectionHobbies" ng-if="$ctrl.sectionDisplayed != 'print'">
+      <span class="fa fa-coffee" ng-click="$ctrl.sectionDisplay('hobbies')"></span>
     </div>
-    <div class="text-justify" id="divContent">
-      <div id="divIcons">
-          <a href=""><span class="fa fa-github-square"></span></a>
-          <a href=""><span class="fa fa-bitbucket-square"></span></a>
-          <a href=""><span class="fa fa fa-linkedin-square"></span></a>
-          <a href=""><span class="fa fa-print"></span></a>
-      </div>
-      <div id="divPersExp" ng-if="$ctrl.sectionDisplayed = 'proExp'">
-        <h1>Experience Professionnelle</h1>
-        <div ng-repeat="exp in $ctrl.info.content.proExp">
-            {{exp.titre}}
-            {{exp.}}
-        </div>
-        {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}} {{$ctrl.sectionDisplayed}}
 
+    <div class="text-justify" id="divContent">
+      <div id="divIcons" ng-if="$ctrl.sectionDisplayed != 'print'">
+          <a href="https://github.com/maximeSurmontGH" target="_blank"><span class="fa fa-github-square"></span></a>
+          <a href="https://twitter.com/maximeSurmontTw" target="_blank"><span class="fa fa-twitter-square"></span></a>
+          <a href="https://www.linkedin.com/in/maxime-surmont-1905b6137/?ppe=1" target="_blank"><span class="fa fa fa-linkedin-square"></span></a>
+          <a href="" ng-click="$ctrl.print()"><span class="fa fa-print"></span></a>
       </div>
+
+      <!---->
+      <div class="divSectionDisplay" ng-if="$ctrl.sectionDisplayed == 'proExp' || $ctrl.sectionDisplayed == 'print'">
+        <span class="fa fa-suitcase"></span><h1 class="page-header"><strong>EXPERIENCE PROFESSIONNELLE</strong></h1>
+        <div ng-repeat="exp in $ctrl.info.content.proExp">
+          <div>
+            <h3><strong>{{exp.title | uppercase}}</strong></h3>
+          </div>
+          <div>
+            <span class="fa fa-building"></span>&nbsp; {{exp.location}} &nbsp;&nbsp;&nbsp;<span class="fa fa-calendar"></span>&nbsp;&nbsp;{{exp.dateStart}} - {{exp.dateEnd}}
+          </div>
+          <div>
+            <span>{{exp.content}}</span>
+          </div>
+        </div>
+      </div>
+
+      <!---->
+      <div class="divSectionDisplay" ng-if="$ctrl.sectionDisplayed == 'formation' || $ctrl.sectionDisplayed == 'print'">
+        <span class="fa fa-graduation-cap"></span><h1 class="page-header"><strong>FORMATION</strong></h1>
+        <div ng-repeat="exp in $ctrl.info.content.training">
+          <div>
+            <h3><strong>{{exp.title | uppercase}}</strong></h3>
+          </div>
+          <div>
+            <span class="fa fa-building"></span>&nbsp; {{exp.location}} &nbsp;&nbsp;&nbsp;<span class="fa fa-calendar"></span>&nbsp;&nbsp;{{exp.dateStart}} - {{exp.dateEnd}}
+          </div>
+          <div>
+            <span>{{exp.content}}</span>
+          </div>
+        </div>
+      </div>
+
+      <!---->
+      <div class="divSectionDisplay" ng-if="$ctrl.sectionDisplayed == 'hobbies' || $ctrl.sectionDisplayed == 'print'">
+        <span class="fa fa-coffee"></span><h1 class="page-header"><strong>LOISIRS ET PASSIONS</strong></h1>
+        <div>
+          <div id="toBeFlexed">
+            <div ng-repeat="hobbie in $ctrl.info.content.hobbies">
+              <figure>
+                <img src="{{hobbie.url}}"/>
+                <figcaption><strong>{{hobbie.name | uppercase}}</strong></figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
-</div>

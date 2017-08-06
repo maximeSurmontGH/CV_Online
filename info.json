@@ -15,7 +15,7 @@
                                         },
                     "mail"          : "maxime.surmont@hei.fr",
                     "number"        : "06 40 40 04 78",
-                    "photo"         : "/img"
+                    "photo"         : "img/me.png"
                 },
     "skills"    :[
                     {
@@ -59,62 +59,91 @@
     "content"   :{
                     "proExp"        :[
                                         {
-                                            "titre"         : "Ecole",
-                                            "localisation"  : "LILLE",
-                                            "dateStart"     : "2013",
-                                            "dateEnd"       : "none",
-                                            "content"       : "grezzzzzzzzzzzzzzgggggggggggggfdzzzzzzzzzzzzzzzzzzbbbbbbbbbbbbbb\nfreaaaaaaaaaaaa\nvreaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                                            "title"         : "DEV WEB",
+                                            "location"      : "OVH ROUBAIX",
+                                            "dateStart"     : "juin 2017",
+                                            "dateEnd"       : "août 2017",
+                                            "content"       : ""
                                         },
                                         {
-                                            "titre"         : "Ecole",
-                                            "localisation"  : "LILLE",
-                                            "dateStart"     : "2013",
-                                            "dateEnd"       : "none",
-                                            "content"       : "grezzzzzzzzzzzzzzgggggggggggggfdzzzzzzzzzzzzzzzzzzbbbbbbbbbbbbbb\nfreaaaaaaaaaaaa\nvreaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                                            "title"         : "APP MACHIN",
+                                            "location"      : "HEI LILLE",
+                                            "dateStart"     : "2016",
+                                            "dateEnd"       : "2017",
+                                            "content"       : "Ces responsabilité m'ont permis de travailler en équipe sur des projets non-scolaire et diversifiés : programmation et gestion d'événement, communication avec des entreprises et des étudiants, gestion d'un groupe de travail de personnes, etc."
                                         },
                                         {
-                                            "titre"         : "Ecole",
-                                            "localisation"  : "LILLE",
+                                            "title"         : "PRÉSIDENT DE L'ASSOCIATION CINÉFILES",
+                                            "location"      : "HEI LILLE",
+                                            "dateStart"     : "2016",
+                                            "dateEnd"       : "2017",
+                                            "content"       : "Ces responsabilité m'ont permis de travailler en équipe sur des projets non-scolaire et diversifiés : programmation et gestion d'événement, communication avec des entreprises et des étudiants, gestion d'un groupe de travail de personnes, etc."
+                                        },
+                                        {
+                                            "title"         : "RESP. COMMUNICATION AU FORUM ENTREPRISES HEI",
+                                            "location"      : "HEI LILLE",
+                                            "dateStart"     : "2016",
+                                            "dateEnd"       : "2017",
+                                            "content"       : "Ces responsabilité m'ont permis de travailler en équipe sur des projets non-scolaire et diversifiés : programmation et gestion d'événement, communication avec des entreprises et des étudiants, gestion d'un groupe de travail de personnes, etc."
+                                        },
+                                        {
+                                            "title"         : "ANIMATEUR DE CENTRE AÉRÉ",
+                                            "location"      : "ville de LINSELLES",
                                             "dateStart"     : "2013",
-                                            "dateEnd"       : "none",
-                                            "content"       : "grezzzzzzzzzzzzzzgggggggggggggfdzzzzzzzzzzzzzzzzzzbbbbbbbbbbbbbb\nfreaaaaaaaaaaaa\nvreaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                                            "dateEnd"       : "Aujourd'hui",
+                                            "content"       : "Travail vacancier qui a su être responsabilisant en étant au contact d'enfants. Le travail d'équipe et la participation aux réunions sont des points importants lors de la préparation des activités. De plus, cela m'a permis d'être plus indépendant financièrement."
+                                        },
+                                        {
+                                            "title"         : "STAGE OUVRIER - MANUTENTION",
+                                            "location"      : "LILLE",
+                                            "dateStart"     : "2013",
+                                            "dateEnd"       : "Aujourd",
+                                            "content"       : "Stage sur une ligne de production en 3*7 (remplissage de cartons, mise en palette, etc) dont j'ai su retenir la difficulté et la pénibilité du travail éffectué."
                                         }
                                     ],
                     "training"      :[
                                         {
-                                            "titre"         : "Ecole",
-                                            "localisation"  : "LILLE",
+                                            "title"         : "INGENIEUR GENERALISTE - INFORMATIQUE",
+                                            "location"      : "LAVAL QUEBEC/CANADA",
                                             "dateStart"     : "2013",
-                                            "dateEnd"       : "none",
-                                            "content"       : "grezzzzzzzzzzzzzzgggggggggggggfdzzzzzzzzzzzzzzzzzzbbbbbbbbbbbbbb\nfreaaaaaaaaaaaa\nvreaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                                            "dateEnd"       : "Aujourd'hui",
+                                            "content"       : ""
                                         },
                                         {
-                                            "titre"         : "Ecole",
-                                            "localisation"  : "LILLE",
+                                            "title"         : "INGENIEUR GENERALISTE - INFORMATIQUE",
+                                            "location"      : "HEI LILLE",
                                             "dateStart"     : "2013",
-                                            "dateEnd"       : "none",
-                                            "content"       : "grezzzzzzzzzzzzzzgggggggggggggfdzzzzzzzzzzzzzzzzzzbbbbbbbbbbbbbb\nfreaaaaaaaaaaaa\nvreaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                                            "dateEnd"       : "Aujourd'hui",
+                                            "content"       : "Lors de ma formation d'ingénieur, j'ai décidé de m'orienter en informatique. Cela m'a permis d'acquérir des compétences dans de nombreux langages de progammation tout en ayant des connaissances dans de nombeux autres domaines de l'ingénieurie."
                                         },
                                         {
-                                            "titre"         : "Ecole",
-                                            "localisation"  : "LILLE",
-                                            "dateStart"     : "2013",
-                                            "dateEnd"       : "none",
-                                            "content"       : "grezzzzzzzzzzzzzzgggggggggggggfdzzzzzzzzzzzzzzzzzzbbbbbbbbbbbbbb\nfreaaaaaaaaaaaa\nvreaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                                            "title"         : "ST LUC - SECTION PUBLICITÉ",
+                                            "location"      : "ESEA ST-LUC",
+                                            "dateStart"     : "2012",
+                                            "dateEnd"       : "2013",
+                                            "content"       : "Attiré par les Arts, j'ai effectué una année à Saint Luc. Même si celle-ci n'a pas donné lieu à une poursuite de mes études dans ce domaine, elle m'a beaucoup appris en terme d'esthétique graphique (et utilisation de logiciels dédiés), réflexion marketing, etc"
                                         }
                                     ],
                     "hobbies"       :[
                                         {
-                                            "name"  : "bénévole",
-                                            "url"   : "/img"
+                                            "name"  : "lecture",
+                                            "url"   : "img/livre.png"
                                         },
                                         {
                                             "name"  : "sport",
-                                            "url"   : "/img"
+                                            "url"   : "img/sport.png"
+                                        },
+                                        {
+                                            "name"  : "bénévole",
+                                            "url"   : "img/benevole.png"
+                                        },
+                                        {
+                                            "name"  : "coding",
+                                            "url"   : "img/coding.png"
                                         },
                                         {
                                             "name"  : "séries",
-                                            "url"   : "/img"
+                                            "url"   : "img/netflix.png"
                                         }
                                     ]
                 }
