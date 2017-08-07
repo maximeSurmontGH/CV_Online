@@ -39,6 +39,10 @@
                         "value"     : "80"
                     },
                     {
+                        "name"      : "node JS",
+                        "value"     : "50"
+                    },
+                    {
                         "name"      : "Angular JS - Angular",
                         "value"     : "65"
                     },
@@ -49,7 +53,12 @@
                     {
                         "name"      : "Réseaux",
                         "value"     : "30"
-                    },{
+                    },
+                    {
+                        "name"      : "BDD: mySql, MongoDB, Redis, PGsql",
+                        "value"     : "65"
+                    },
+                    {
                         "name"      : "Graphisme: Photoshop, Illustrator",
                         "value"     : "60"
                     }
@@ -63,28 +72,28 @@
                                             "location"      : "OVH ROUBAIX",
                                             "dateStart"     : "juin 2017",
                                             "dateEnd"       : "août 2017",
-                                            "content"       : ""
+                                            "content"       : "J'ai effectué mon stage de professionnalisation s'étalant sur une période de trois à OVH sur le site de Roubaix. Ma mission était d'aider au developpement de la restructuration de l'application interne de gestion des employés et de de leurs doits. J'ai travaillé sur un environnement Linux, en travaillant sur un front end en angularJS et un bak end en perl, utilisant le framework Mojolicious (la plus part de mon travail consistait en du developpement front end mais à plusieurs reprise j'ai eu à travailler sur le backend, notamment sur la création de nouvelle routes pour l'API rest."
                                         },
                                         {
-                                            "title"         : "APP MACHIN",
+                                            "title"         : "APPLICATION WEB DE GESTION D'UNE ENTREPRISE",
                                             "location"      : "HEI LILLE",
                                             "dateStart"     : "2016",
                                             "dateEnd"       : "2017",
-                                            "content"       : "Ces responsabilité m'ont permis de travailler en équipe sur des projets non-scolaire et diversifiés : programmation et gestion d'événement, communication avec des entreprises et des étudiants, gestion d'un groupe de travail de personnes, etc."
+                                            "content"       : "Lors de ma deuxième année en cycle ingénieur j'ai décidé de participé, avec julien DONQUE à une mission de la junior entreprise de HEI. L'objectif était de créer une application web permettant à l'entreprise commanditaire de gérer les différents aspects suivants: gestion des employés et des clients, gestion des opérations de l'entreprises, offrant des outils décisionnels, etc. Dans ce projet, Julien s'est occupé du back end en node JS et moi je me suis occupé du front end en angular JS."
                                         },
                                         {
                                             "title"         : "PRÉSIDENT DE L'ASSOCIATION CINÉFILES",
                                             "location"      : "HEI LILLE",
                                             "dateStart"     : "2016",
                                             "dateEnd"       : "2017",
-                                            "content"       : "Ces responsabilité m'ont permis de travailler en équipe sur des projets non-scolaire et diversifiés : programmation et gestion d'événement, communication avec des entreprises et des étudiants, gestion d'un groupe de travail de personnes, etc."
+                                            "content"       : "Ce poste représentait pour moi à la fois la possibilité de me responsabilisé face à un groupe tout en travaillant sur un sujet non scolaire m'intéressant. Ce que je retiendrai avant tout sera les rencontres et les moments passés avec mon équipe qui m'ont plus appris que ce que le poste a pu m'enseigner."
                                         },
                                         {
                                             "title"         : "RESP. COMMUNICATION AU FORUM ENTREPRISES HEI",
                                             "location"      : "HEI LILLE",
                                             "dateStart"     : "2016",
                                             "dateEnd"       : "2017",
-                                            "content"       : "Ces responsabilité m'ont permis de travailler en équipe sur des projets non-scolaire et diversifiés : programmation et gestion d'événement, communication avec des entreprises et des étudiants, gestion d'un groupe de travail de personnes, etc."
+                                            "content"       : "En tant que responsable communication du forum entreprise, j'ai eu à fournir les différents supports de communication, participer aux réunions pour programmer et gérer l'évènement, communiquer avec entreprises et étudiants, etc. Ce fut experience très enrichissante mettant avant tout en avant le travail d'équipe et la gestion d'un projet s'étalant sur plusieurs mois."
                                         },
                                         {
                                             "title"         : "ANIMATEUR DE CENTRE AÉRÉ",
@@ -98,7 +107,7 @@
                                             "location"      : "LILLE",
                                             "dateStart"     : "2013",
                                             "dateEnd"       : "Aujourd",
-                                            "content"       : "Stage sur une ligne de production en 3*7 (remplissage de cartons, mise en palette, etc) dont j'ai su retenir la difficulté et la pénibilité du travail éffectué."
+                                            "content"       : "Stage sur une ligne de production en 3*7 (remplissage de cartons, mise en palette, etc) dont j'ai su retenir avant tout la difficulté et la pénibilité du travail éffectué."
                                         }
                                     ],
                     "training"      :[
@@ -107,21 +116,21 @@
                                             "location"      : "LAVAL QUEBEC/CANADA",
                                             "dateStart"     : "2013",
                                             "dateEnd"       : "Aujourd'hui",
-                                            "content"       : ""
+                                            "content"       : "En troisième année de cycle ingénieur, après le Eleven Weeks Project (EWP), j'ai passé un semestre en échange académique à l'université de Laval. J'y ai suivi une formation non plus généraliste mais totalement poussée vers l'informatique, où j'ai pu suivre des cours plus spécialisé (sécurité informatique, intelligence artificielle, etc)"
                                         },
                                         {
                                             "title"         : "INGENIEUR GENERALISTE - INFORMATIQUE",
                                             "location"      : "HEI LILLE",
                                             "dateStart"     : "2013",
                                             "dateEnd"       : "Aujourd'hui",
-                                            "content"       : "Lors de ma formation d'ingénieur, j'ai décidé de m'orienter en informatique. Cela m'a permis d'acquérir des compétences dans de nombreux langages de progammation tout en ayant des connaissances dans de nombeux autres domaines de l'ingénieurie."
+                                            "content"       : "Lors de ma formation d'ingénieur généraliste, j'ai décidé de m'orienter vers une spécialisation en informatique. Cela m'a donc permis d'acquérir des compétences informatiques très diverses (gestion de projets informatique, développement web en front end et back end, réseaux, etc), approfondies par un travail personnel, tout en ayant des connaissances dans de nombeux autres domaines de l'ingénieurie."
                                         },
                                         {
                                             "title"         : "ST LUC - SECTION PUBLICITÉ",
                                             "location"      : "ESEA ST-LUC",
                                             "dateStart"     : "2012",
                                             "dateEnd"       : "2013",
-                                            "content"       : "Attiré par les Arts, j'ai effectué una année à Saint Luc. Même si celle-ci n'a pas donné lieu à une poursuite de mes études dans ce domaine, elle m'a beaucoup appris en terme d'esthétique graphique (et utilisation de logiciels dédiés), réflexion marketing, etc"
+                                            "content"       : "Attiré par les Arts, j'ai effectué une année à Saint Luc, en section publicité. Même si celle-ci n'a pas donné lieu à une poursuite de mes études dans ce domaine, elle m'a permis d'acquérir de nombreuses compétences en terme d'esthétique graphique (et utilisation de logiciels dédiés), réflexion marketing autours de sujets variés, ouverture d'esprit, etc"
                                         }
                                     ],
                     "hobbies"       :[
