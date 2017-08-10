@@ -15,3 +15,345 @@ body{
     background: -webkit-radial-gradient(center, circle cover,  #fff  0%, #EFF2FB 100%);
     color: #3c4a59 !important;
 }
+
+/* ===== LEFT SIDE ===== */
+
+#sectionInfo{
+  display: inline-block;
+}
+
+#sectionInfo #divHeader{
+  height: 250px;
+  max-width: 270px;
+  background: #303b47 !important;
+  z-index: 2;
+  color: #fff !important;
+}
+
+#sectionInfo #divHeader h3, h4{
+  margin: 0;
+  text-shadow: 0px 1px 3px #000;
+}
+
+#sectionInfo #divHeader h3{
+  padding-top: 25px;
+}
+
+#sectionInfo #divImg img{
+  width: 160px;
+  border: solid 3px #f2f2f2 !important;
+  border-radius: 50%;
+  box-shadow: 0px 3px 13px #111;
+  position: absolute;
+  top: 170px;
+  left: 55px;
+}
+
+#sectionInfo #divInfo{
+  max-width: 270px;
+  background:  #3c4a59 !important;
+  color: #fff !important;
+  padding: 85px 15px 50px 15px;
+}
+
+#sectionInfo #divInfo h4{
+  margin: 0;
+  padding-top: 40px;
+  font-size: 20px;
+}
+
+#sectionInfo #divInfo #divContact div{
+  font-size: 15px;
+  margin-top: 10px;
+}
+#sectionInfo #divInfo #divContact div span{
+  width: 18px;
+  text-align: center;
+  margin-right: 2px;
+}
+
+#sectionInfo #divInfo #divSkills>div{
+  font-size: 15px;
+  margin-top: 10px;
+}
+#sectionInfo #divInfo #divSkills div{
+  margin-bottom: 0 !important;
+}
+.progress-bar-success{
+  background-color: #5b677a !important;
+}
+
+#sectionInfo #divInfo #divFacts div{
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+/* ===== RIGHT SIDE ===== */
+
+#sectionContent{
+  display: inline-block;
+  position: absolute;
+  float: right;
+}
+
+#divSelectionPersExp, #divSelectionFormation, #divSelectionHobbies{
+  background: #3c4a59 !important;
+  width: 50px;
+  border-radius: 0px 5px 5px 0px;
+  position: absolute;
+  left: 0px;
+}
+
+#divSelectionPersExp{
+  top: 20px;
+}
+#divSelectionPersExp span:hover{
+  text-shadow: 0px 1px 10px #abd;
+}
+
+#divSelectionFormation{
+  top: 70px;
+}
+#divSelectionFormation span:hover{
+  text-shadow: 0px 1px 10px #abd;
+}
+
+#divSelectionHobbies{
+  top: 120px;
+}
+#divSelectionHobbies span:hover{
+  text-shadow: 0px 1px 10px #abd;
+}
+
+#divSelectionPersExp span, #divSelectionFormation span, #divSelectionHobbies span{
+  color: #fff !important;
+  font-size: 22px;
+  margin: 10px 0px 10px 15px;
+}
+
+#divContent{
+  margin: -37px 60px 70px 70px;
+}
+
+#divContent #divIcons{
+  margin-top: -0px;
+  font-size: 26px;
+  float: right;
+}
+
+#divContent #divIcons span{
+  color: #3c4a59 !important;
+}
+
+.divSectionDisplay{
+  margin-top: 50px;
+}
+
+.divSectionDisplay>span{
+  font-size: 35px;
+  margin: 0 20px 0 10px;
+  vertical-align: super;
+}
+
+.divSectionDisplay .fa-graduation-cap{
+  margin-right: 10px;
+}
+
+.divSectionDisplay .fa-plane{
+  padding: 0 4px;
+}
+
+.divSectionDisplay h1{
+  display: inline-block;
+  font-size: 2.5vw;
+}
+
+.divSectionDisplay>div{
+  margin-left: 65px;
+  margin-bottom: 30px;
+}
+
+.divSectionDisplay>div>div{
+  font-size: 16px;
+}
+
+.divSectionDisplay>div>div>span{
+  margin-bottom: 5px;
+}
+
+.divSectionDisplay #toBeFlexed{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.divSectionDisplay figure img{
+  border: solid 3px #f2f2f2;
+  border-radius: 50%;
+  box-shadow: 0px 3px 13px #111;
+  width: 180px;
+  height: 180px;
+  margin: 30px;
+}
+
+.divSectionDisplay figure figcaption{
+  text-align: center;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 986px) {
+
+  /* ===== LEFT SIDE ===== */
+
+  #sectionInfo{
+    display: block;
+  }
+
+  #sectionInfo #divHeader{
+    max-width: 100%;
+    background: #303b47;
+  }
+
+  #sectionInfo #divInfo{
+    max-width: 100%;
+    padding-bottom: 5px;
+  }
+
+  #sectionInfo #divInfo #divSkills, #sectionInfo #divInfo #divContact{
+    display: inline-block;
+    width: 47.5%;
+    margin: 1%;
+    vertical-align: top;
+    word-break: break-all;
+  }
+
+  #sectionInfo #divInfo #divSkills>h4{
+    font-size: 12px;
+    padding-top: 20px;
+  }
+  #sectionInfo #divInfo #divContact>h4{
+    font-size: 12px;
+    padding-top: 20px;
+  }
+
+  #sectionInfo #divInfo #divSkills>div{
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  #sectionInfo #divInfo #divContact>div{
+    font-size: 12px;
+    margin-top: 10px;
+  }
+
+  #sectionInfo #divInfo #divContact div span{
+    margin: 0;
+  }
+
+  #sectionInfo #divInfo #divContact div .fa{
+    display: none;
+  }
+
+  #sectionInfo #divInfo #divFacts{
+    display: none;
+  }
+
+  /* ===== RIGHT SIDE ===== */
+
+  .divSectionDisplay{
+    margin: 0;
+  }
+
+  .page-header{
+    margin: 20px 0 0 0 !important;
+  }
+
+  .divSectionDisplay h1{
+    font-size: 14px;
+  }
+
+  .divSectionDisplay>span{
+    font-size: 14px;
+    margin: 0 10px 0 10px;
+    vertical-align: super;
+  }
+
+  .divSectionDisplay>div>div>h3{
+    font-size: 14px;
+  }
+
+  .divSectionDisplay div div{
+    font-size: 12px;
+  }
+
+  #divContent{
+    margin: 0px 0px 20px 0px;
+  }
+
+  .divSectionDisplay>div{
+    margin-left: 45px;
+    margin-bottom: 30px;
+  }
+
+  .divSectionDisplay #toBeFlexed{
+    margin-top: 10px;
+  }
+
+  .divSectionDisplay figure img{
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media print {
+  @page {
+    margin: 0 40px 0 0;
+  }
+
+  #sectionInfo #divInfo{
+    min-height: 34.5cm;
+  }
+
+  #divContent{
+    margin: 0px 0px 0px 40px;
+  }
+
+  .divSectionDisplay>div{
+    margin-left: 45px;
+  }
+
+  #divHeader>h3, #divHeader>h3>strong, #divHeader>h4, #divContact>h4, #divContact>div, #divFacts>h4, #divFacts>div, #divSkills>h4, #divSkills>div{
+    color: #fff !important;
+  }
+
+  .fa{
+    display: none !important;
+  }
+
+  .justForPrintText{
+    color: #3c4a59 !important;
+  }
+
+  .divSectionDisplay{
+    margin-top: 50px;
+  }
+
+  .divSectionDisplay h1{
+    font-size: 30px;
+  }
+
+  .page-header{
+    margin: 0 0 0 0 !important;
+  }
+
+  .divSectionDisplay #toBeFlexed{
+    margin-top: 10px;
+  }
+
+  .divSectionDisplay figure img{
+    width: 100px;
+    height: 100px;
+  }
+}
