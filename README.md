@@ -1,4 +1,4 @@
-# CV_Online
+# CV_Online - https://online-cv-maxime-surmont.herokuapp.com/index.html#!/cv
 
 HTML 5, CSS 3, JS, Jquery, Angular JS
 
