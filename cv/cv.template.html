@@ -60,45 +60,45 @@
 
       <!---->
       <div class="divSectionDisplay" ng-if="$ctrl.sectionDisplayed == 'proExp' || $ctrl.sectionDisplayed == 'print'">
-        <span class="fa fa-suitcase"></span><h1 class="page-header"><strong>EXPERIENCE PROFESSIONNELLE</strong></h1>
+        <span class="fa fa-suitcase justForPrintText"></span><h1 class="page-header"><strong class="justForPrintText">EXPERIENCE PROFESSIONNELLE</strong></h1>
         <div ng-repeat="exp in $ctrl.info.content.proExp">
           <div>
-            <h3><strong>{{exp.title | uppercase}}</strong></h3>
+            <h3><strong class="justForPrintText">{{exp.title | uppercase}}</strong></h3>
+          </div>
+          <div class="justForPrintText">
+            <span class="fa fa-building justForPrintText"></span>&nbsp; {{exp.location}} &nbsp;&nbsp;&nbsp;<span class="fa fa-calendar justForPrintText"></span>&nbsp;&nbsp;{{exp.dateStart}} - {{exp.dateEnd}}
           </div>
           <div>
-            <span class="fa fa-building"></span>&nbsp; {{exp.location}} &nbsp;&nbsp;&nbsp;<span class="fa fa-calendar"></span>&nbsp;&nbsp;{{exp.dateStart}} - {{exp.dateEnd}}
-          </div>
-          <div>
-            <span>{{exp.content}}</span>
+            <span class="justForPrintText">{{exp.content}}</span>
           </div>
         </div>
       </div>
 
       <!---->
       <div class="divSectionDisplay" ng-if="$ctrl.sectionDisplayed == 'formation' || $ctrl.sectionDisplayed == 'print'">
-        <span class="fa fa-graduation-cap"></span><h1 class="page-header"><strong>FORMATION</strong></h1>
+        <span class="fa fa-graduation-cap justForPrintText"></span><h1 class="page-header"><strong class="justForPrintText">FORMATION</strong></h1>
         <div ng-repeat="exp in $ctrl.info.content.training">
           <div>
-            <h3><strong>{{exp.title | uppercase}}</strong></h3>
+            <h3><strong class="justForPrintText">{{exp.title | uppercase}}</strong></h3>
+          </div>
+          <div class="justForPrintText">
+            <span class="fa fa-building justForPrintText"></span>&nbsp; {{exp.location}} &nbsp;&nbsp;&nbsp;<span class="fa fa-calendar justForPrintText"></span>&nbsp;&nbsp;{{exp.dateStart}} - {{exp.dateEnd}}
           </div>
           <div>
-            <span class="fa fa-building"></span>&nbsp; {{exp.location}} &nbsp;&nbsp;&nbsp;<span class="fa fa-calendar"></span>&nbsp;&nbsp;{{exp.dateStart}} - {{exp.dateEnd}}
-          </div>
-          <div>
-            <span>{{exp.content}}</span>
+            <span class="justForPrintText">{{exp.content}}</span>
           </div>
         </div>
       </div>
 
       <!---->
       <div class="divSectionDisplay" ng-if="$ctrl.sectionDisplayed == 'hobbies' || $ctrl.sectionDisplayed == 'print'">
-        <span class="fa fa-coffee"></span><h1 class="page-header"><strong>LOISIRS ET PASSIONS</strong></h1>
+        <span class="fa fa-coffee justForPrintText"></span><h1 class="page-header"><strong class="justForPrintText">LOISIRS ET PASSIONS</strong></h1>
         <div>
           <div id="toBeFlexed">
             <div ng-repeat="hobbie in $ctrl.info.content.hobbies">
               <figure>
                 <img src="{{hobbie.url}}"/>
-                <figcaption><strong>{{hobbie.name | uppercase}}</strong></figcaption>
+                <figcaption><strong class="justForPrintText">{{hobbie.name | uppercase}}</strong></figcaption>
               </figure>
             </div>
           </div>

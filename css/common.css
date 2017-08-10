@@ -13,5 +13,5 @@ body{
     vertical-align:baseline;
     background: #fff;
     background: -webkit-radial-gradient(center, circle cover,  #fff  0%, #EFF2FB 100%);
-    color: #3c4a59;
+    color: #3c4a59 !important;
 }
