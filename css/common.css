@@ -313,7 +313,30 @@ body{
   }
 
   #sectionInfo #divInfo{
-    min-height: 34.5cm;
+    min-height: 44.5cm;
+  }
+
+  #sectionInfo #divHeader{
+    height: 280px !important;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #divInfo>div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  #divSkills>div{
+    margin-top: 8px;
+  }
+
+  #divSkills>div>div{
+    margin-top: 4px;
+  }
+
+  #sectionInfo #divImg img{
+    top: 200px;
   }
 
   #divContent{

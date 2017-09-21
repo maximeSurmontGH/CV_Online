@@ -4,8 +4,8 @@
                     "lastname"      : "SURMONT",
                     "dateOfBirth"   : "18/06/1994",
                     "job"           : "élève ingénieur IT",
-                    "jobSearched"   : "Stage Ingénieur",
-                    "date"          : "juin - août 2017",
+                    "jobSearched"   : "EWP",
+                    "date"          : "octobre - décembre 2017",
                     "address"       :
                                         {
                                             "num"       : "105",
@@ -20,10 +20,10 @@
     "skills"    :[
                     {
                         "name"      : "Anglais - FIRST",
-                        "value"     : "70"
+                        "value"     : "65"
                     },
                     {
-                        "name"      : "Gestion de peojet: GIT - SCRUM",
+                        "name"      : "Gestion de projet: GIT - SCRUM",
                         "value"     : "70"
                     },
                     {
@@ -39,20 +39,16 @@
                         "value"     : "80"
                     },
                     {
-                        "name"      : "node JS",
-                        "value"     : "50"
+                        "name"      : "Angular JS",
+                        "value"     : "75"
                     },
                     {
-                        "name"      : "Angular JS - Angular",
-                        "value"     : "65"
-                    },
-                    {
-                        "name"      : "PERL (Mojolicious)",
-                        "value"     : "60"
+                        "name"      : "PERL",
+                        "value"     : "55"
                     },
                     {
                         "name"      : "Réseaux",
-                        "value"     : "30"
+                        "value"     : "40"
                     },
                     {
                         "name"      : "BDD: mySql, MongoDB, Redis, PG",
@@ -63,30 +59,30 @@
                         "value"     : "60"
                     }
                 ],
-    "persFact"  :["Je ne fume pas", "J'aime organiser mon temps même si travailler sous stress ne me dérange pas", "Je m'adapte facilement aux heures de travail. Je suis flexible."
+    "persFact"  :["Je ne fume pas.", "J'aime organiser mon temps, même si travailler sous stress ne me dérange pas.", "Je m'adapte facilement aux heures de travail. Je suis flexible."
                 ],
     "content"   :{
                     "proExp"        :[
                                         {
-                                            "title"         : "DEV WEB",
+                                            "title"         : "DEVELOPPEUR WEB",
                                             "location"      : "OVH ROUBAIX",
                                             "dateStart"     : "juin 2017",
                                             "dateEnd"       : "août 2017",
-                                            "content"       : "J'ai effectué mon stage de professionnalisation s'étalant sur une période de trois à OVH sur le site de Roubaix. Ma mission était d'aider au developpement de la restructuration de l'application interne de gestion des employés et de de leurs doits. J'ai travaillé sur un environnement Linux, en travaillant sur un front end en angularJS et un bak end en perl, utilisant le framework Mojolicious (la plus part de mon travail consistait en du developpement front end mais à plusieurs reprise j'ai eu à travailler sur le backend, notamment sur la création de nouvelle routes pour l'API rest."
+                                            "content"       : "J'ai effectué mon stage de professionnalisation s'étalant sur une période de trois mois à OVH sur le site de Roubaix. Ma mission était d'aider au développement de la restructuration de l'application interne de gestion des employés et de de leurs droits. J'ai travaillé sur un environnement Linux, le projet était un projet front end en angularJS et avec un bak end en perl, utilisant le framework Mojolicious (la plus part de mon travail consistait en du developpement front end mais à plusieurs reprises j'ai eu à travailler sur le back end)."
                                         },
                                         {
                                             "title"         : "APPLICATION WEB DE GESTION D'UNE ENTREPRISE",
                                             "location"      : "HEI LILLE",
                                             "dateStart"     : "2016",
                                             "dateEnd"       : "2017",
-                                            "content"       : "Lors de ma deuxième année en cycle ingénieur j'ai décidé de participé, avec julien DONQUE à une mission de la junior entreprise de HEI. L'objectif était de créer une application web permettant à l'entreprise commanditaire de gérer les différents aspects suivants: gestion des employés et des clients, gestion des opérations de l'entreprises, offrant des outils décisionnels, etc. Dans ce projet, Julien s'est occupé du back end en node JS et moi je me suis occupé du front end en angular JS."
+                                            "content"       : "Lors de ma deuxième année en cycle ingénieur j'ai décidé de participer à une mission de la junior entreprise de HEI en duo. L'objectif était de créer une application web permettant à l'entreprise commanditaire de gérer les différents aspects suivants: gestion des employés et des clients, gestion des opérations de l'entreprise, offrant des outils décisionnels, etc. Dans ce projet, le second élève sur le projet s'est occupé du back end en node JS et moi je me suis occupé du front end en angular JS."
                                         },
                                         {
                                             "title"         : "PRÉSIDENT DE L'ASSOCIATION CINÉFILES",
                                             "location"      : "HEI LILLE",
                                             "dateStart"     : "2016",
                                             "dateEnd"       : "2017",
-                                            "content"       : "Ce poste représentait pour moi à la fois la possibilité de me responsabilisé face à un groupe tout en travaillant sur un sujet non scolaire m'intéressant. Ce que je retiendrai avant tout sera les rencontres et les moments passés avec mon équipe qui m'ont plus appris que ce que le poste a pu m'enseigner."
+                                            "content"       : "Ce poste représentait pour moi à la fois la possibilité de me responsabiliser face à un groupe tout en travaillant sur un sujet non scolaire m'intéressant. Ce que je retiendrai avant tout seront les rencontres et les moments passés avec mon équipe qui m'ont plus appris que ce que le poste a pu faire."
                                         },
                                         {
                                             "title"         : "RESP. COMMUNICATION AU FORUM ENTREPRISES HEI",
@@ -101,22 +97,24 @@
                                             "dateStart"     : "2013",
                                             "dateEnd"       : "Aujourd'hui",
                                             "content"       : "Travail vacancier qui a su être responsabilisant en étant au contact d'enfants. Le travail d'équipe et la participation aux réunions sont des points importants lors de la préparation des activités. De plus, cela m'a permis d'être plus indépendant financièrement."
-                                        },
-                                        {
-                                            "title"         : "STAGE OUVRIER - MANUTENTION",
-                                            "location"      : "LILLE",
-                                            "dateStart"     : "2013",
-                                            "dateEnd"       : "Aujourd",
-                                            "content"       : "Stage sur une ligne de production en 3*7 (remplissage de cartons, mise en palette, etc) dont j'ai su retenir avant tout la difficulté et la pénibilité du travail éffectué."
                                         }
                                     ],
+
+                                    "commentaire" : {
+                                        "title"         : "STAGE OUVRIER - MANUTENTION",
+                                        "location"      : "LILLE",
+                                        "dateStart"     : "2013",
+                                        "dateEnd"       : "Aujourd",
+                                        "content"       : "Stage sur une ligne de production en 3*7 (remplissage de cartons, mise en palette, etc) dont j'ai su retenir avant tout la difficulté et la pénibilité du travail éffectué."
+                                    },
+
                     "training"      :[
                                         {
                                             "title"         : "INGENIEUR GENERALISTE - INFORMATIQUE",
                                             "location"      : "LAVAL QUEBEC/CANADA",
                                             "dateStart"     : "2013",
                                             "dateEnd"       : "Aujourd'hui",
-                                            "content"       : "En troisième année de cycle ingénieur, après le Eleven Weeks Project (EWP), j'ai passé un semestre en échange académique à l'université de Laval. J'y ai suivi une formation non plus généraliste mais totalement poussée vers l'informatique, où j'ai pu suivre des cours plus spécialisé (sécurité informatique, intelligence artificielle, etc)"
+                                            "content"       : "En troisième année de cycle ingénieur, après le Eleven Weeks Project (EWP), j'ai passé un semestre en échange académique à l'université de Laval. J'y ai suivi une formation non plus généraliste mais totalement orientée vers l'informatique, où j'ai pu suivre des cours plus spécialisés (sécurité informatique, intelligence artificielle, etc)"
                                         },
                                         {
                                             "title"         : "INGENIEUR GENERALISTE - INFORMATIQUE",
@@ -130,7 +128,7 @@
                                             "location"      : "ESEA ST-LUC",
                                             "dateStart"     : "2012",
                                             "dateEnd"       : "2013",
-                                            "content"       : "Attiré par les Arts, j'ai effectué une année à Saint Luc, en section publicité. Même si celle-ci n'a pas donné lieu à une poursuite de mes études dans ce domaine, elle m'a permis d'acquérir de nombreuses compétences en terme d'esthétique graphique (et utilisation de logiciels dédiés), réflexion marketing autours de sujets variés, ouverture d'esprit, etc"
+                                            "content"       : "Attiré par les Arts, j'ai effectué une année à Saint Luc, en section publicité. Même si celle-ci n'a pas donnée lieu à une poursuite de mes études dans ce domaine, elle m'a permis d'acquérir de nombreuses compétences en terme d'esthétique graphique (et utilisation de logiciels dédiés), réflexion marketing autours de sujets variés, ouverture d'esprit, etc"
                                         }
                                     ],
                     "hobbies"       :[
