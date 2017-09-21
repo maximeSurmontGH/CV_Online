@@ -1,4 +1,4 @@
-# CV_Online
+# website_CV-online - https://online-cv-maxime-surmont.herokuapp.com/index.html#!/cv
 
 HTML 5, CSS 3, JS, Jquery, Angular JS
 
@@ -9,3 +9,5 @@ First Step will be to change the data of the file info.json. Be careful to follo
 Second step is to change the color, if you want. For now, there sis nothing done to help it but you jist have to go in the file /css/contentCv and change the filed starting by "#". Here is a tips: search an element "#xxxx" with ctrl+f and select them, pick a color and change all selected elements by this color. This way you will update quickly the template and keepthe design safe.
 
 Put it online with heroku and this tuto, easy to follow : http://blog.teamtreehouse.com/deploy-static-site-heroku
+
+PRINT VERSION IS NOT REALLY FINISHED, if you want to print it, do it with firefox, and not then it is online. Don t forget to display the background elements (print option) when you print it.
