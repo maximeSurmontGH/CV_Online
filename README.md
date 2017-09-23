@@ -12,4 +12,4 @@ Put it online with heroku and this tuto, easy to follow : http://blog.teamtreeho
 
 PRINT VERSION IS NOT REALLY FINISHED, if you want to print it, do it with firefox, and make it fit in one page. Don t forget to display the background elements (color and image) on the print options when you print it.
 
-![img](https://imgur.com/hBMdMHI)
+![Imgur](https://i.imgur.com/hBMdMHI.png)
