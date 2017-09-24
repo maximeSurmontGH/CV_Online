@@ -339,8 +339,29 @@ body{
     top: 200px;
   }
 
+  #sectionInfo figure{
+      position: absolute;
+  }
+
+  #sectionInfo figure img{
+    width: 200px !important;
+    border-radius: 10px;
+    margin: 20px;
+    margin-top: 50px;
+  }
+
+  #sectionInfo figure figcaption{
+    font-size: 15px;
+    color: white !important;
+  }
+
   #divContent{
     margin: 0px 0px 0px 40px;
+  }
+
+  .divSectionDisplay{
+    margin-bottom: 50px;
+    margin-top: 95px !important;
   }
 
   .divSectionDisplay>div{
