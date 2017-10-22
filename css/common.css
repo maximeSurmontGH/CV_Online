@@ -361,7 +361,7 @@ body{
 
   .divSectionDisplay{
     margin-bottom: 50px;
-    margin-top: 95px !important;
+    margin-top: 65px !important;
   }
 
   .divSectionDisplay>div{
@@ -378,10 +378,6 @@ body{
 
   .justForPrintText{
     color: #3c4a59 !important;
-  }
-
-  .divSectionDisplay{
-    margin-top: 50px;
   }
 
   .divSectionDisplay h1{

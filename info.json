@@ -43,6 +43,10 @@
                         "value"     : "75"
                     },
                     {
+                        "name"      : "R",
+                        "value"     : "40"
+                    },
+                    {
                         "name"      : "PERL",
                         "value"     : "55"
                     },
@@ -63,6 +67,13 @@
                 ],
     "content"   :{
                     "proExp"        :[
+                                        {
+                                            "title"         : "EWP PROJECT",
+                                            "location"      : "DECATHLON CAMPUS",
+                                            "dateStart"     : "octobre 2017",
+                                            "dateEnd"       : "décembre 2017",
+                                            "content"       : "Projet de 11 semaines en équipe de 3 élèves de HEI. Notre mission était orienté traitement de la qualité de données et Big Data pour DECATHLON. Nous avons notamment travailler avec R sur différents algorithmes de clustering avec l'aide des équipes de data-mining de DECATHLON."
+                                        },
                                         {
                                             "title"         : "DEVELOPPEUR WEB",
                                             "location"      : "OVH ROUBAIX",
