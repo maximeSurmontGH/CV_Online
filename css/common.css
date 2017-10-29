@@ -135,6 +135,10 @@ body{
   margin: -37px 60px 70px 70px;
 }
 
+.page-header{
+  border-bottom: 0px;
+}
+
 #divContent #divIcons{
   margin-top: -0px;
   font-size: 26px;
@@ -316,8 +320,13 @@ body{
     min-height: 44.5cm;
   }
 
+  #sectionInfo #divInfo #divSkills div, #sectionInfo #divInfo #divHeader h3, #sectionInfo #divInfo #divContact div,   #sectionInfo #divInfo #divFacts div{
+    font-size: 17px !important;
+  }
+
   #sectionInfo #divHeader{
-    height: 280px !important;
+    height: 310px !important;
+    max-width: 300px;
     padding-top: 30px;
     padding-bottom: 30px;
   }
@@ -336,7 +345,9 @@ body{
   }
 
   #sectionInfo #divImg img{
-    top: 200px;
+    top: 205px;
+    width: 210px;
+    left: 26.5px !important;
   }
 
   #sectionInfo figure{
@@ -346,7 +357,7 @@ body{
   #sectionInfo figure img{
     width: 200px !important;
     border-radius: 10px;
-    margin: 20px;
+    margin: 18px;
     margin-top: 50px;
   }
 
@@ -359,9 +370,16 @@ body{
     margin: 0px 0px 0px 40px;
   }
 
+  b{
+    color: #3c4a59 !important;
+  }
+
+  #divContent div div{
+    font-size: 18px;
+  }
+
   .divSectionDisplay{
-    margin-bottom: 50px;
-    margin-top: 65px !important;
+    margin-top: 50px !important;
   }
 
   .divSectionDisplay>div{
@@ -372,8 +390,12 @@ body{
     color: #fff !important;
   }
 
-  .fa{
-    display: none !important;
+  .fa:before {
+    color:#3c4a59 !important;
+  }
+
+  .fa1:before {
+    color:white !important;
   }
 
   .justForPrintText{

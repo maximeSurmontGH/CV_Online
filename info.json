@@ -4,12 +4,12 @@
                     "lastname"      : "SURMONT",
                     "dateOfBirth"   : "18/06/1994",
                     "job"           : "élève ingénieur IT",
-                    "jobSearched"   : "EWP",
-                    "date"          : "octobre - décembre 2017",
+                    "jobSearched"   : "Stage de fin d'études",
+                    "date"          : "juin - novembre 2018",
                     "address"       :
                                         {
                                             "num"       : "105",
-                                            "street"    : "Avenue Robert Descamps",
+                                            "street"    : "Avn. Robert Descamps",
                                             "cityNum"   : "59126",
                                             "city"      : "Linselles"
                                         },
@@ -19,19 +19,11 @@
                 },
     "skills"    :[
                     {
-                        "name"      : "Anglais - FIRST",
-                        "value"     : "65"
-                    },
-                    {
-                        "name"      : "Gestion de projet: GIT - SCRUM",
-                        "value"     : "70"
-                    },
-                    {
                         "name"      : "Java - JEE",
                         "value"     : "60"
                     },
                     {
-                        "name"      : "Commandes Unix et scripts SHELL",
+                        "name"      : "Commandes Unix et scripts",
                         "value"     : "55"
                     },
                     {
@@ -43,24 +35,40 @@
                         "value"     : "75"
                     },
                     {
-                        "name"      : "R",
+                        "name"      : "R et outils big data",
                         "value"     : "40"
                     },
                     {
-                        "name"      : "PERL",
+                        "name"      : "Perl",
                         "value"     : "55"
+                    },
+                    {
+                        "name"      : "Python",
+                        "value"     : "40"
                     },
                     {
                         "name"      : "Réseaux",
                         "value"     : "40"
                     },
                     {
-                        "name"      : "BDD: mySql, MongoDB, Redis, PG",
+                        "name"      : "BDD: mySql, MongoDB, Redis",
                         "value"     : "65"
                     },
                     {
-                        "name"      : "Graphisme: Photoshop, Illustrator",
+                        "name"      : "Anglais - FIRST",
+                        "value"     : "65"
+                    },
+                    {
+                        "name"      : "Management: GIT - SCRUM",
+                        "value"     : "70"
+                    },
+                    {
+                        "name"      : "Graphisme: Photoshop",
                         "value"     : "60"
+                    },
+                    {
+                        "name"      : "Bonne humeur et Joie de vivre",
+                        "value"     : "100"
                     }
                 ],
     "persFact"  :["Je ne fume pas.", "J'aime organiser mon temps, même si travailler sous stress ne me dérange pas.", "Je m'adapte facilement aux heures de travail. Je suis flexible."
@@ -68,46 +76,52 @@
     "content"   :{
                     "proExp"        :[
                                         {
-                                            "title"         : "EWP PROJECT",
-                                            "location"      : "DECATHLON CAMPUS",
-                                            "dateStart"     : "octobre 2017",
-                                            "dateEnd"       : "décembre 2017",
-                                            "content"       : "Projet de 11 semaines en équipe de 3 élèves de HEI. Notre mission était orienté traitement de la qualité de données et Big Data pour DECATHLON. Nous avons notamment travaillé avec R sur différents algorithmes de clustering avec l'aide des équipes de data-mining de DECATHLON."
+                                            "title"         : "ELEVEN WEEKS PROJECT",
+                                            "location"      : "DECATHLON, leader mondial de la distribution d'articles de sport",
+                                            "dateStart"     : "oct. 2017",
+                                            "dateEnd"       : "décb. 2017",
+                                            "content"       : "Projet de 11 semaines en équipe de 3 élèves de HEI. Notre mission était orienté traitement de la qualité de données et Big Data pour DECATHLON.",
+                                            "hashtag"       : "Big-data, R, Clustering, Gestion de projet"
                                         },
                                         {
                                             "title"         : "DEVELOPPEUR WEB",
-                                            "location"      : "OVH ROUBAIX",
+                                            "location"      : "OVH ROUBAIX, leader européen du cloud computing",
                                             "dateStart"     : "juin 2017",
                                             "dateEnd"       : "août 2017",
-                                            "content"       : "J'ai effectué mon stage de professionnalisation s'étalant sur une période de trois mois à OVH sur le site de Roubaix. Ma mission était d'aider au développement de la restructuration de l'application interne de gestion des employés et de leurs droits. J'ai travaillé sur un environnement Linux, le projet était un projet front end en angularJS et avec un bak end en perl, utilisant le framework Mojolicious (la plupart de mon travail consistait en du developpement front end mais à plusieurs reprises j'ai eu à travailler sur le back end)."
+                                            "content"       : "J'ai effectué mon stage de professionnalisation à OVH. Ma mission était d'aider au développement de la restructuration de l'application interne de gestion des employés et de leurs droits.",
+                                            "hashtag"        : "AngularJS, Dev Web, Intranet, Perl, Mojolicious, Linux"
                                         },
                                         {
                                             "title"         : "APPLICATION WEB DE GESTION D'UNE ENTREPRISE",
                                             "location"      : "HEI LILLE",
                                             "dateStart"     : "2016",
                                             "dateEnd"       : "2017",
-                                            "content"       : "Lors de ma deuxième année en cycle ingénieur j'ai décidé de participer à une mission de la junior entreprise de HEI, en duo. L'objectif était de créer une application web permettant à l'entreprise commanditaire de gérer les différents aspects suivants: gestion des employés et des clients, gestion des opérations commerciales de l'entreprise, etc, en offrant des outils décisionnels. Dans ce projet, je me suis occupé du front end en angular JS et mon collègue s'est occupé du back end en node JS."
+                                            "content"       : "Mission pour la junior entreprise de HEI. L'objectif était de fournir un support permettant ces différents fonctions: gestion des employés et des clients, gestion des opérations commerciales, etc.",
+                                            "hashtag"        : "Front-end, AngularJS, Intranet, Junior Entreprise"
                                         },
                                         {
                                             "title"         : "PRÉSIDENT DE L'ASSOCIATION CINÉFILES",
                                             "location"      : "HEI LILLE",
                                             "dateStart"     : "2016",
                                             "dateEnd"       : "2017",
-                                            "content"       : "Ce poste représentait pour moi, à la fois la possibilité de me responsabiliser face à un groupe, tout en travaillant sur un sujet non scolaire me plaisant. Ce que je retiendrai avant tout, ce sont les rencontres et les moments passés avec mon équipe, qui m'ont plus appris que ce que en lui même."
+                                            "content"       : "Ce poste représentait pour moi, à la fois la possibilité de me responsabiliser face à un groupe, tout en travaillant sur un sujet non scolaire me plaisant.",
+                                            "hashtag"        : "Gestion d'évènements, Gestion de groupe"
                                         },
                                         {
                                             "title"         : "RESP. COMMUNICATION AU FORUM ENTREPRISES HEI",
                                             "location"      : "HEI LILLE",
                                             "dateStart"     : "2016",
                                             "dateEnd"       : "2017",
-                                            "content"       : "En tant que responsable communication du forum entreprise, j'ai eu à fournir les différents supports de communication, participer aux réunions pour programmer et gérer l'évènement, communiquer avec entreprises et étudiants, etc. Ce fut une experience très enrichissante mettant en avant le travail d'équipe et la gestion d'un projet s'étalant sur plusieurs mois."
+                                            "content"       : "En tant que responsable communication du forum entreprise, j'ai eu à fournir les différents supports de communication, participer aux réunions, communiquer avec entreprises, etc.",
+                                            "hashtag"        : "Communication, Relations entreprises, Travail de groupe"
                                         },
                                         {
                                             "title"         : "ANIMATEUR DE CENTRE AÉRÉ",
                                             "location"      : "ville de LINSELLES",
                                             "dateStart"     : "2013",
                                             "dateEnd"       : "Aujourd'hui",
-                                            "content"       : "Travail saisonnier qui a su être responsabilisant en étant au contact d'enfants. Le travail d'équipe et la participation aux réunions sont des points importants lors de la préparation des activités. De plus, cela m'a permis d'être plus indépendant financièrement."
+                                            "content"       : "Travail saisonnier qui a su être responsabilisant en étant au contact d'enfants. Le travail d'équipe et la participation aux réunions sont des points importants lors de la préparation des activités.",
+                                            "hashtag"        : "Travail d'été, Travail de groupe, Responsabilités"
                                         }
                                     ],
 
@@ -125,14 +139,14 @@
                                             "location"      : "HEI LILLE",
                                             "dateStart"     : "2013",
                                             "dateEnd"       : "Aujourd'hui",
-                                            "content"       : "Lors de ma formation d'ingénieur généraliste, j'ai décidé de m'orienter vers une spécialisation en informatique. Cela m'a donc permis d'acquérir des compétences informatiques très diverses (gestion de projets informatique, développement web front end et back end, réseaux, etc), approfondies par un travail personnel, tout en ayant des connaissances dans de nombeux autres domaines de l'ingénierie."
+                                            "content"       : "Formation d'ingénieur généraliste avec une spécialisation en informatique. Cela m'a permis d'acquérir des compétences informatiques très diverses, tout en ayant des connaissances dans de nombeux autres domaines de l'ingénierie."
                                         },
                                         {
                                             "title"         : "ST LUC - SECTION PUBLICITÉ",
                                             "location"      : "ESEA ST-LUC",
                                             "dateStart"     : "2012",
                                             "dateEnd"       : "2013",
-                                            "content"       : "Attiré par les Arts, j'ai effectué une année à Saint Luc, en section publicité. Même si celle-ci n'a pas donné lieu à une poursuite de mes études dans ce domaine, elle m'a permis d'acquérir de nombreuses compétences en terme d'esthétique graphique (et utilisation de logiciels dédiés), réflexion marketing autours de sujets variés, ouverture d'esprit, etc"
+                                            "content"       : "Attiré par les Arts, j'ai effectué une année à Saint Luc, en section publicité. Même si celle-ci n'a pas donné lieu à une poursuite de mes études dans ce domaine, elle m'a permis d'acquérir de nombreuses compétences en terme d'esthétique graphique, réflexion marketing, etc"
                                         }
                                     ],
 

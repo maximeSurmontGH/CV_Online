@@ -14,14 +14,14 @@
 
       <div id="divInfo">
         <div id="divContact">
-          <h4><span class="fa fa-address-book-o"></span> CONTACT</h4>
-          <div><span><span class="fa fa-map-marker"></span></span>{{$ctrl.info.contact.address.num}} {{$ctrl.info.contact.address.street}}</div>
-          <div><span><span class="fa"> </span></span>{{$ctrl.info.contact.address.cityNum}} {{$ctrl.info.contact.address.city | uppercase}}</div>
-          <div><span><span class="fa fa-envelope"></span></span>{{$ctrl.info.contact.mail}}</div>
-          <div><span><span class="fa fa-mobile"></span></span>{{$ctrl.info.contact.number}}</div>
+          <h4><span class="fa fa-address-book-o fa1"></span> CONTACT</h4>
+          <div><span><span class="fa fa-map-marker fa1"></span></span>{{$ctrl.info.contact.address.num}} {{$ctrl.info.contact.address.street}}</div>
+          <div><span><span class="fa fa1"> </span></span>{{$ctrl.info.contact.address.cityNum}} {{$ctrl.info.contact.address.city | uppercase}}</div>
+          <div><span><span class="fa fa-envelope fa1"></span></span>{{$ctrl.info.contact.mail}}</div>
+          <div><span><span class="fa fa-mobile fa1"></span></span>{{$ctrl.info.contact.number}}</div>
         </div>
         <div id="divSkills">
-          <h4><span class="fa fa-university"></span> MES COMP&Eacute;TENCES</h4>
+          <h4><span class="fa fa-university fa1"></span> MES COMP&Eacute;TENCES</h4>
           <div ng-repeat="skill in $ctrl.info.skills">
             {{skill.name}}
             <div class="progress">
@@ -30,12 +30,12 @@
             </div>
           </div>
         </div>
-        <div id="divFacts">
-          <h4><span class="fa fa-trophy"></span> FAITS PERSONNELS</h4>
+        <!--<div id="divFacts">
+          <h4><span class="fa fa-trophy fa1"></span> FAITS PERSONNELS</h4>
           <div ng-repeat="fact in $ctrl.info.persFact" class="text-justify">
             {{fact}}
           </div>
-        </div>
+        </div>-->
         <figure ng-if="$ctrl.sectionDisplayed == 'print'">
           <img src="img/versLinkedin.jpg">
           <figcaption class="text-center">mon Linkedin</figcaption>
@@ -74,6 +74,9 @@
           </div>
           <div>
             <span class="justForPrintText">{{exp.content}}</span>
+          </div>
+          <div class="justForPrintText">
+            <span class="fa fa-hashtag justForPrintText"></span>&nbsp;<b>{{exp.hashtag}}</b>
           </div>
         </div>
       </div>
