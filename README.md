@@ -1,4 +1,4 @@
-# website_CV-online - https://online-cv-maxime-surmont.herokuapp.com/index.html#!/cv
+# CV ONLINE - https://online-cv-maxime-surmont.herokuapp.com/index.html#!/cv
 
 HTML 5, CSS 3, JS, Jquery, Angular JS
 
@@ -10,6 +10,4 @@ Second step is to change the color, if you want. For now, there sis nothing done
 
 Put it online with heroku and this tuto, easy to follow : http://blog.teamtreehouse.com/deploy-static-site-heroku
 
-PRINT VERSION IS NOT REALLY FINISHED, if you want to print it, do it with firefox, and make it fit in one page. Don t forget to display the background elements (color and image) on the print options when you print it.
-
-![Imgur](https://i.imgur.com/1hx3Wqe.png)
+![Imgur](https://i.imgur.com/EUODMKg.png)
